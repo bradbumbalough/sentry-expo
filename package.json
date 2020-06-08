@@ -3,13 +3,19 @@
   "version": "2.0.4",
   "main": "index.js",
   "types": "index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
   "license": "MIT",
   "dependencies": {
     "@expo/spawn-async": "^1.2.8",
-    "expo-constants": "*",
     "@sentry/integrations": "^5.5.0",
     "@sentry/react-native": "^1.3.9",
+    "expo-constants": "*",
     "mkdirp": "^1.0.3",
     "rimraf": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
